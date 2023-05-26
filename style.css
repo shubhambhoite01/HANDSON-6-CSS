@@ -1,0 +1,254 @@
+.l1{
+    height: 300px;
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 30px;
+    color: brown;
+    font-size: 20px;
+
+}
+.f1{
+    height: 250px;
+    width: 250px;
+    background-color: rgb(243, 79, 14);
+    border: 2px solid black;
+    animation-name: row_1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+}
+@keyframes row_1{
+    from{
+        height: 250px;
+    width: 250px;
+    border: 2px solid black;
+    }
+    
+    
+   to {
+        transform: skewX(20deg);
+    
+        transition:  all 2s; 
+    }
+}
+.l2{
+    height: 300px;
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+    gap: 30px;
+    
+}
+.s1{
+    height: 250px;
+    width: 250px;
+    background-color: rgb(12, 123, 234);
+    border: 2px solid black;
+    animation-name: row_2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes row_2{
+    from{
+        height: 250px;
+    width: 250px;
+    border: 2px solid black;
+    }
+    
+    
+   to {
+        transform: skewY(20deg);
+       
+        transition:  all 2s; 
+    }
+}
+
+.l3{
+    height: 300px;
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+
+    padding: 20px;
+    gap: 30px;
+}
+.t1{
+    height: 250px;
+    width: 250px;
+    background-color: darkkhaki;
+    border: 2px solid black;
+    animation-name: row_3;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes row_3{
+    from{
+        height: 250px;
+    width: 250px;
+    border: 2px solid black;
+    }
+    
+    
+   to {
+        
+        transform: rotate(360deg);
+        transition:  all 2s; 
+    }
+}
+.l4{
+    height: 300px;
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+    gap: 30px;
+}
+.e1.i1{
+    height: 200px;
+    width: 200px;
+    background-color: cornflowerblue;
+    border: 2px solid black;
+    animation-name: row_4;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes row_4{
+    from{
+        height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    }
+    
+    
+   to {
+    height: 300px;
+    width: 200px;
+    border: 2px solid black;
+        transition:  height 2s; 
+    }
+}
+.e1.i2{
+    height: 200px;
+    width: 200px;
+    background-color: darkblue;
+    border: 2px solid black;
+    animation-name: row_5;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes row_5{
+    from{
+        height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    }
+    
+    
+   to {
+    height: 200px;
+    width: 300px;
+    border: 2px solid black;
+        transition:  width 2s; 
+    }
+}
+
+
+.e1.i3{
+    height: 200px;
+    width: 200px;
+    background-color: darkmagenta;
+    border: 2px solid black;
+    animation-name: row_6;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes row_6{
+    from{
+        height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    }
+    
+    
+   to {
+        
+        transform: rotate(180deg);
+        transition:  all 2s; 
+    }
+}
+.h1{
+    text-align: center;
+    color: rgb(14, 1, 7);
+}
+.list{
+    margin-left: 400px;
+
+}
+.page_2{
+    font-size: 45px;
+    margin-left: 600px;
+    text-decoration: none;
+    color: cornflowerblue;
+}
+.box1,.box2,.box3,.box4,.box5,.box6,.box7{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(11, 139, 87);
+    transition: 2s;
+    margin-bottom: 20px;
+}
+.box1:hover{
+    width: 400px;
+}
+.box2:hover{
+    width: 400px;
+    height: 400px;
+}
+.box3:hover{
+    width: 400px;
+    transition-timing-function: linear;
+}
+.box4:hover{
+    width: 400px;
+    transition-timing-function: ease;
+}
+.box5:hover{
+    width: 400px;
+    transition-timing-function: ease-in;
+}
+.box6:hover{
+    width: 400px;
+    transition-timing-function: ease-out;
+}
+.box7:hover{
+    width: 400px;
+    transition-timing-function: ease-in-out;
+}
+.parent{
+    margin-left: 700px;
+}
+.back,.next{
+    font-size: 40px;
+    margin-left: 750px;
+}
+
+.div{
+    width: 500px;
+    height: 200px;
+}
